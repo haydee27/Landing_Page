@@ -98,7 +98,7 @@ body * {
 }
 
 .navbar .menu-C {
-    display: none;
+    display: none !important;
   }
 
 .container-navbar .navbar .navbar-content{
