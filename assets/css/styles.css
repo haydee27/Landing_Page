@@ -57,7 +57,7 @@ body * {
   height: 8vh;
   object-fit: contain;
   display: block;
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  margin: 0 auto;
 }
 
 .container-user{
@@ -78,10 +78,7 @@ body * {
   text-decoration:none;
   color: #000;
 }
-
-
  /*Navbar style*/
-
 .container-navbar{
   background-color: #1318bc;
 }
@@ -176,11 +173,7 @@ body * {
 	height: 80%;
 	padding: 1rem;
 }
-
-
 /*Main */
-
-
 .container .main-content{
   background-color: #ffffff;
 }
@@ -415,9 +408,7 @@ body * {
 	color: #ff0000;
 	margin-left: 0.5rem;
 }
-
 /* Card de contenido */
-
 .container .main-content .container-infor {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -455,7 +446,6 @@ body * {
 .container .main-content .container-infor .card-info  .card-content-info a{
   text-decoration: none;
 }
-
 /* Ultima foto*/
 .img img{
   width: 100%;
@@ -463,10 +453,7 @@ body * {
   padding: 2vh;
   object-fit: contain;
 }
-
-
 /* Footer */
-
 .footer {
 	background-color: #1318bc;
     margin-top: 5vh;
@@ -688,13 +675,13 @@ body * {
 	}
 
 	.navbar .navbar-content{
-		display: none !important; /* Ocultamos el menú inicialmente */
+		display: none !important; 
         flex-direction: column;
-        background-color: #1318bc; /* Color de fondo del menú desplegable */
+        background-color: #1318bc; 
         position: absolute;
-        top: 100%; /* Para que aparezca debajo del botón */
+        top: 100%; 
         left: 0;
-        width: 100%; /* Abarca todo el ancho de la pantalla */
+        width: 100%; 
         z-index: 1000;
 	}
 
@@ -713,7 +700,6 @@ body * {
         color: rgb(255, 255, 255);
         font-size: 1.5rem;
     }
-
     /* Estilos para el formulario de búsqueda */
     .search-form {
         display: flex;
@@ -740,11 +726,7 @@ body * {
 	.heading-1 {
 		font-size: 1.5rem;
 	}
-
-	/*
-	Slider
-	*/
-
+	/*Slider*/
 	.container .main-content .slider-frame img {
 		object-fit: contain;
 	  }
@@ -805,6 +787,4 @@ body * {
 		max-height: 20vw;
 		object-fit: contain;
 	  }
-
-
 }
