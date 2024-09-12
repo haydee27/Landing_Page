@@ -774,6 +774,11 @@ body * {
 	.content-card-producto h3 {
 		font-size: 2.2rem;
 	}
+
+	.container .main-content .container-productos .content-card-producto .add-carrito svg {
+		width: 5vw;
+		height: 5vw;
+	}
 /*footer*/
 	.menu-footer{
 		grid-template-columns: 1fr !important;
